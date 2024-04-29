@@ -1,0 +1,46 @@
+/* frontend/src/components/CourseForm.css */
+
+.course-form-container {
+  text-align: center;
+}
+
+.course-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group select,
+.input-group input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.add-course-button {
+  width: 200px;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #9c27b0; /* Light purple */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-course-button:hover {
+  background-color: #7b1fa2; /* Darker shade of purple on hover */
+}

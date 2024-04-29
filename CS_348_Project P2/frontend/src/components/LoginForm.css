@@ -1,0 +1,34 @@
+/* frontend/src/components/LoginForm.css */
+
+.login-form-container {
+  text-align: center;
+}
+
+.input-field {
+  width: 250px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 200px;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #9c27b0; /* Light purple */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #7b1fa2; /* Darker shade of purple on hover */
+}
+
+.error-message {
+  color: red;
+}
